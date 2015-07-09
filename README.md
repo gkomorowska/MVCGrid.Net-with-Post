@@ -1,19 +1,10 @@
-# MVCGrid.Net
-A grid for ASP.NET MVC and Bootstrap with ajax paging and sorting. Also has filtering support, export to csv, back button support, and graceful degradation.
+# MVCGrid.Net with Post
+It is MVCGrid.Net (https://github.com/joeharrison714/MVCGrid.Net) extended with the possibility to use post while reloading grid.
 
-Easily configurable. All AJAX calls are handled for you... Simply tell it how to get your data!
-
-
-## Features
-* Uses your existing model objects
-* Server-side sorting and paging using AJAX
-* updates query string to support maintaining grid state when navigating back
-* gracefully degrades on older browsers (works on IE8)
-* Built-in exporting to csv
-* Filtering support with minimal client-side code
+## Added Features
 * Allows to use Post while reloading grid (this disables browser navigation) for specified grids
-
 
 ## Usage
 
 See http://mvcgrid.net
+To use Post add .WithUsePost(true) to your grid definition.
