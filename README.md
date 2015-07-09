@@ -11,6 +11,7 @@ Easily configurable. All AJAX calls are handled for you... Simply tell it how to
 * gracefully degrades on older browsers (works on IE8)
 * Built-in exporting to csv
 * Filtering support with minimal client-side code
+* Allows to use Post while reloading grid (this disables browser navigation) for specified grids
 
 
 ## Usage
